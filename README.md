@@ -1,4 +1,4 @@
-# MAE SCRAPER
+# MAE Scraper
 
 Esta pequeño script en Go importa "github.com/chromedp/chromedp" para poder hacer un scrape del TC último informado en: https://www.mae.com.ar/mercado/datos-del-mercado/mae-today
 
