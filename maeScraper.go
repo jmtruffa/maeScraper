@@ -12,10 +12,12 @@ import (
 func main() {
 	// create context
 	ctx, cancel := chromedp.NewContext(context.Background())
-
-	ctx, cancel = context.WithTimeout(ctx, 20*time.Second)
-
 	defer cancel()
+
+	ctx, cancel = context.WithTimeout(ctx, 10*time.Second)
+	defer cancel()
+
+	// #block-maetoday tr+ tr .market-table-td-value
 
 	// run task list
 	var res string
